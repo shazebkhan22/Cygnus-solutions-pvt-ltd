@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import ContactForm from "../components/ContactForm";
 import Map from "../components/Map";
 import { FaLinkedin, FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
+import OfficeCards from "../components/OfficeCards";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -34,7 +35,7 @@ const Contact = () => {
         </motion.div>
       </motion.section>
 
-      {/* Office Locations */}
+      {/* Office Locations
       <section className="h-auto pt-14 sm:pt-20 pb-8 sm:pb-10 bg-gray-100 px-4">
         <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900 mb-8 sm:mb-12">
           Our Offices
@@ -86,7 +87,9 @@ const Contact = () => {
             </motion.div>
           ))}
         </div>
-      </section>
+      </section> */}
+
+      <OfficeCards/>
 
       {/* Map Section */}
       <section className="pt-6 sm:pt-10 bg-gray-100 px-4">
