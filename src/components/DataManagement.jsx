@@ -1,4 +1,4 @@
-import logo from "../assets/collage.png"; // Ensure this path is correct or switch to an image if needed
+import logo from "../assets/collage.png"; // Ensure this path is correct or switch to an image if needed adnd no need
 
 const DataManagement = () => {
   const cardData = [
