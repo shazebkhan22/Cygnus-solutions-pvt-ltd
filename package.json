@@ -12,7 +12,7 @@
   "dependencies": {
     "@ant-design/icons": "^6.0.0",
     "@material-tailwind/react": "^2.1.10",
-    "@react-three/fiber": "^9.3.0",
+    "@react-three/fiber": "^8.13.2",
     "@tabler/icons-react": "^3.34.1",
     "antd": "^5.26.4",
     "clsx": "^2.1.1",
